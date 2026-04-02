@@ -13,6 +13,7 @@ const catalogo = [
   },
 ];
 
+
 catalogo.forEach((item) => {
   console.log(`O serviço ${item.nome} custa R$${item.preco.toFixed(2)}`);
 });
